@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>javascriptaroo</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Cool Chat App</h1>
+        <main>
+            <ol id="history">
+                <!--
+                <li>Cogito: I saw you writing your angst fanfiction Melas.</li>
+                <li>Melas: I would appreciate it if you didn't call it that.</li>
+                <li>Melas: Well, it's unsurprising given that you're a science major.</li>
+                <li>Melas: You can't even clothe yourself in the morning, much less recognize literature.</li>
+                <li>Cogito: Harhar.</li>
+                <li>Cogito: Big talk, coming from someone who dresses like an emo rapper.</li>
+                -->
+                <li id="intro">Welcome to the chat app!</li>
+            </ol>
+            <div class="type">
+                <form>
+                    <input id="initials">
+                    <input id="m">
+                    <button>SEND</button>
+                </form>
+            </div>
+        </main>
+    </body>
+
+    <span style="font-size: 16px;"><script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script></span>
+</html>
